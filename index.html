@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Cadastro Banda</title>
+    
+<style>
+    #titulo{
+            text-align : center;
+            }
+</style>
+
+</head>
+    <body>
+
+    <h1 id="titulo">Cadastros</h1>
+        <form action="saida.php" method="post" align='center'>
+
+                Nome da Banda: <br>
+                <input type="text" name="nome" size="40"> <br>
+
+                Link para imgem :<br>
+                <input type="text" name="imagem" size="40"> <br>
+                
+                Integrante 1 - Nome:<br>
+                <input type="text" name="integ1" size="40"><br>
+                
+                Integrante 1 - Data de Nascimento:<br>
+                <input type="text" placeholder='DD/MM/YY' name="data1" size="40"><br>
+                
+                Integrante 1 - Instrumento:<br>
+                <input type="text" name="instru1" size="40"><br>
+                
+                
+                Integrante 2 - Nome:<br>
+                <input type="text" name="integ2" size="40" ><br>
+                
+                Integrante 2 - Data de Nascimento:<br>
+                <input type="text" placeholder='DD/MM/YY' name="data2" size="40"><br>
+                
+                Integrante 2 - Instrumento:<br>
+                <input type="text" name="instru2" size="40" ><br>
+                
+                    
+                Integrante 3 - Nome:<br>
+                <input type="text" name="integ3" size="40"><br>
+                
+                Integrante 3 - Data de Nascimento:<br>
+                <input type="text" placeholder='DD/MM/YY' name="data3" size="40" ><br>
+                
+                Integrante 3 - Instrumento:<br>
+                <input type="text" name="instru3" size="40"><br><br>
+
+                
+                Biografia:<br>
+                <textarea name="biografia" cols="100" rows="40">          </textarea> <br> <br>
+                
+                Cor de Fundo da Página:<br>
+                <select name="corFundo" size="1">
+                    <option value="blue">Azul</option>
+                    <option value="yellow">Amarelo</option>
+                    <option value="white">Branco</option>
+                    <option value="black">Preto</option>
+                    <option value="green">Verde</option>
+                    <option value="red">Vermelho</option>
+                </select><br>
+        
+                
+                Cor do Texto da Página:<br>
+                <select name="corTexto" size="1">
+                    <option value="blue">Azul</option>
+                    <option value="yellow">Amarelo</option>
+                    <option value="white">Branco</option>
+                    <option value="black">Preto</option>
+                    <option value="green">Verde</option>
+                    <option value="red">Vermelho</option>
+                </select><br>
+                
+            
+                <p> <input type='submit' value='Gerar Pagina' size='40'></p>
+        
+        </form>
+    
+    
+
+    </body>
+</html>
